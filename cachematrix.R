@@ -1,9 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
-## turn a regular matrix in an object that 
+## Function makeCacheMatrix() turns a regular matrix in an object that 
 ## - initializes inverse value
 ## - stores original matrix (set)
 ## - returns original matrix (get)
@@ -30,9 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-
-## Function tries to lookup inverse value of matrix object 'x' in cache. 
+## Function cacheSolve() tries to lookup inverse value of matrix object 'x' in cache. 
 ## If found then this result is returned. 
 ## If not found then inverse 'i' is calculated using 'solve', stored in 'x' and returned.
 
